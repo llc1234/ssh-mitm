@@ -5,7 +5,7 @@ Intercepts SSH connections, logs all commands and responses.
 Now properly handles PTY requests.
 """
 
-# run the proxy python3 main.py 22 192.168.10.155 22
+# run the proxy: python3 main.py 22 192.168.10.155 22
 
 import socket
 import threading
